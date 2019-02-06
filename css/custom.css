@@ -1,0 +1,45 @@
+
+.intro-section {
+  height: 100%;
+  margin-top: 150px;
+  text-align: center;
+}
+
+#about {
+  margin-top: 80px;
+}
+
+h1 {
+  font-size: 68px;
+}
+
+
+@media screen and (max-width: 500px) {
+  #about {
+    margin-top: 0px;
+  }
+
+  #about p {
+    margin: 40px 0 40px 0; 
+  }
+
+  .image-container {
+    height: auto;
+    width: 100%;
+  }
+
+}
+
+@media screen and (max-width: 768px) {
+  .image-container {
+    height: auto;
+    width: 157px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .image-container {
+    height: auto;
+    width: 310px;
+  }
+}
