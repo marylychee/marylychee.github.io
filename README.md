@@ -1,3 +1,4 @@
 # marylychee.github.io
 
-🍒 💻 🌊 my very minimal personal website [marylychee.com](http://marylychee.com)
+🍒 💻 🌊 my very minimal personal website [marylychee.github.io
+](marylychee.github.io)
