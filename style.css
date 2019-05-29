@@ -1,0 +1,40 @@
+html {
+  font-family: system-ui,
+  -apple-system, BlinkMacSystemFont,
+  "Segoe UI", "Roboto", "Oxygen",
+  "Ubuntu", "Cantarell", "Fira Sans",
+  "Droid Sans", "Helvetica Neue", sans-serif;
+  line-height: 1.5;
+  font-size: 14pt;
+  margin: 0;
+  padding: 0;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container i {
+  color: #bebebe;
+  padding-right: 20px;
+  padding-top: 50px;
+}
+
+.fab:hover {
+  color: #0077ff;
+}
+
+@media screen {
+  body {
+    max-width: 80rem;
+    padding: 1rem;
+  }
+  html {
+    background: linear-gradient(
+      180deg,
+      hsl(180,100%,99%),
+      hsl(300,100%,99%)
+      );
+    min-height: 100%;
+  }
+}
