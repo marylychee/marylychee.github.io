@@ -21,7 +21,11 @@ html {
 }
 
 .fab:hover {
-  color: #0077ff;
+  color: hsla(336, 100%, 86%);
+}
+
+.accent-colour {
+  color: hsla(336, 100%, 86%);
 }
 
 @media screen {
@@ -32,8 +36,8 @@ html {
   html {
     background: linear-gradient(
       180deg,
-      hsl(180,100%,99%),
-      hsl(300,100%,99%)
+      hsla(157, 40%, 86%),
+      hsla(336, 100%, 86%)
       );
     min-height: 100%;
   }
